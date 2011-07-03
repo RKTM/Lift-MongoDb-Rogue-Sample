@@ -47,13 +47,6 @@ derby.log
 .project
 .manager
 
-# building
-target
-build
-null
-tmp*
-dist
-test-output
 
 # sbt
 target
@@ -81,3 +74,7 @@ lift_proto*
 
 # Pax Runner (for easy OSGi launching)
 runner
+
+#emacs
+*#
+*~
