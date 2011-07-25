@@ -5,10 +5,6 @@ import mongodb._
 import util.Props
 import com.mongodb.{Mongo, ServerAddress}
 
-object BlogDb extends MongoIdentifier {
-  val jndiName = "mongo"
-}
-
 object MongoConfig {
   def init: Unit = {
     val srvr = new ServerAddress("127.0.0.1", 27017)
